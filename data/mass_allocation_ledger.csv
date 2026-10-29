@@ -1,0 +1,7 @@
+Subsystem_ID,Subsystem_Component,Mass_kg,Percentage_Share
+1,SiC/SiC Ceramic Matrix Composite Hull Core,8000,40.00
+2,REBCO High-Field Magnet Loop Assembly,2600,13.00
+3,PEM Fuel Cell / sCO2 Powerplant Stack,4000,20.00
+4,Inductive AC MHD Propulsion Channels,1600,8.00
+5,Cryogenic LN2 Loop & LH2 Tankage,2200,11.00
+6,Avionics Sensors & Seawater Ballast,1600,8.00

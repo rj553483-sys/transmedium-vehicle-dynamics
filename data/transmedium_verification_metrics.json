@@ -1,0 +1,55 @@
+{
+  "package_metadata": {
+    "title": "Transmedium Hypersonic Seawater MHD Vehicle Physics: Unified Applied Engineering Specification and Bounding Analysis",
+    "version": "30.0",
+    "journal": "Acta Astronautica",
+    "author": "Jacob James Rasmussen",
+    "orcid": "0009-0009-7084-6523",
+    "date": "2026-10-26"
+  },
+  "vehicle_architecture": {
+    "gross_vehicle_mass_kg": 20000.0,
+    "buckingham_pi_1_invariant": 1.0,
+    "scaling_range_kg": [
+      25.0,
+      1000000.0
+    ],
+    "operating_depth_m": 4000.0,
+    "hydrostatic_pressure_MPa": 40.0,
+    "flight_mach_range": [
+      3.5,
+      4.5
+    ]
+  },
+  "mhd_propulsion": {
+    "rf_induction_frequency_kHz": 25.0,
+    "optimal_slip_ratio": 0.33,
+    "peak_thrust_kN": 110.0,
+    "electromagnetic_skin_depth_m": 0.15,
+    "seawater_conductivity_S_m": 4.5,
+    "hartmann_number": 120.0
+  },
+  "aerothermal_structural": {
+    "max_aerothermal_heat_flux_MW_m2": 1.85,
+    "clamped_wall_temp_K": 923.15,
+    "sco2_precooler_effectiveness_pct": 80.0,
+    "sco2_precooler_ntu": 1.61,
+    "quadrant_iii_stress_state_MPa": [
+      -158.5,
+      -110.0
+    ],
+    "tsai_wu_yield_metric_f_TW": 0.244,
+    "tsai_wu_limit": 1.0,
+    "factor_of_safety_FOS": 4.1,
+    "fea_grid_convergence_index_gci12_pct": 0.42,
+    "fea_gci_target_pct": 0.5
+  },
+  "control_stability": {
+    "transition_lyapunov_eigenvalues": [
+      1.43,
+      2.06,
+      3.31
+    ],
+    "stability_status": "Exponentially Stable (ISS)"
+  }
+}
