@@ -1,0 +1,6 @@
+Subsystem Component,Mass (kg),Percentage Share
+Hull Core (T1000/Epoxy Shell),800.0,40.0
+MHD Channels & Magnet Loops,400.0,20.0
+PEM Fuel Cell Powerplant Stack,400.0,20.0
+Cryogenic LN2 & Fuel Tankage,200.0,10.0
+"Avionics, Sensors, & Payload",200.0,10.0
